@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.1.5 (2024-09-25)
+
+### Fix
+
+* fix(ci): wrong classifier ([`232e927`](https://github.com/geosiris-technologies/trame-gantt/commit/232e927095f6e47b3b7aaad5a55beef7057abd8e))
+
+* fix(ci): wrong classifier ([`323b0b7`](https://github.com/geosiris-technologies/trame-gantt/commit/323b0b79fa0901be2292d79730a6211703a1d941))
+
 ## v0.1.4 (2024-09-25)
 
 ### Fix
