@@ -61,6 +61,10 @@ include = ['trame*']
 "*" = ["*.js", "*.css"]
 
 [tool.semantic_release]
+build_command = """
+    python -m pip install -e .
+    python -m build .
+"""
 version_toml = ["pyproject.toml:project.version"]
 
 
