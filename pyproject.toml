@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "trame-gantt"
-version = "0.1.0"
+version = "0.1.1"
 description = "Widget for gantt diagram for trame"
 authors = [{name = "Lionel Untereiner", email = "lionel.untereiner@geosiris.com"}]
 license = {text = "MIT Licence or Apache2 Licence"}

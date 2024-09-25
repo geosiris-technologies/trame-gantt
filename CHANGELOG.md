@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.1.1 (2024-09-25)
+
+### Fix
+
+* fix(ci): add build dependency ([`461fbf1`](https://github.com/geosiris-technologies/trame-gantt/commit/461fbf14bf05615a236e05533199dd16ccec25cd))
+
+* fix: add build command and update action version ([`8051305`](https://github.com/geosiris-technologies/trame-gantt/commit/805130556c547efb9421252227cc2a1fde30618e))
+
 ## v0.1.0 (2024-09-25)
 
 ### Ci
