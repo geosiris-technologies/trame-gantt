@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.1.4 (2024-09-25)
+
+### Fix
+
+* fix(ci): add env ([`035b193`](https://github.com/geosiris-technologies/trame-gantt/commit/035b1935bbe920bb435f65c41e51a71ee0ddd8ee))
+
 ## v0.1.3 (2024-09-25)
 
 ### Fix
