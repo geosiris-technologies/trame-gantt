@@ -35,6 +35,9 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+build = [
+  "build ~= 1.2"
+]
 dev = [
     "pylint",
     "mypy",
@@ -62,7 +65,7 @@ include = ['trame*']
 
 [tool.semantic_release]
 build_command = """
-    python -m pip install -e .
+    python -m pip install -e .[build]
     python -m build .
 """
 version_toml = ["pyproject.toml:project.version"]
