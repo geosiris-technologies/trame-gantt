@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.1.3 (2024-09-25)
+
+### Fix
+
+* fix(ci): add permissions ([`7af302e`](https://github.com/geosiris-technologies/trame-gantt/commit/7af302e367f11a86f0b0200404a0518ea5dfe63c))
+
 ## v0.1.2 (2024-09-25)
 
 ### Fix
