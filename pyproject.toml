@@ -7,7 +7,7 @@ name = "trame-gantt"
 version = "0.1.4"
 description = "Widget for gantt diagram for trame"
 authors = [{name = "Lionel Untereiner", email = "lionel.untereiner@geosiris.com"}]
-license = "MIT or Apache-2.0"
+license = {text = "MIT or Apache-2.0" }
 classifiers = [
     "Development Status :: 4 - Beta",
     "Environment :: Web Environment",
