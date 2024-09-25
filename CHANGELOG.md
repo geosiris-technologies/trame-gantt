@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.1.2 (2024-09-25)
+
+### Fix
+
+* fix(ci): add PyPI 2FA ([`7cd4cb2`](https://github.com/geosiris-technologies/trame-gantt/commit/7cd4cb2b5696039649d76bd3c7c1d7f3e1b9777b))
+
 ## v0.1.1 (2024-09-25)
 
 ### Fix
