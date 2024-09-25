@@ -98,9 +98,7 @@ jobs:
       - name: Publish package distributions to PyPI
         uses: pypa/gh-action-pypi-publish@v1.10.2
         if: steps.release.outputs.released == 'true'
-        with:
-          user: ${{ secrets.POETRY_PYPI_TOKEN_USERNAME}}
-          password: ${{ secrets.POETRY_PYPI_TOKEN_PASSWORD }}
+
 
       - name: Publish package distributions to GitHub Releases
         uses: python-semantic-release/upload-to-gh-release@v9.8.8
