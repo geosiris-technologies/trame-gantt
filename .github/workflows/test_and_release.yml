@@ -71,6 +71,10 @@ jobs:
     ]
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
+    permissions:
+      # https://docs.github.com/en/rest/overview/permissions-required-for-github-apps?apiVersion=2022-11-28#metadata
+      id-token: write
+      contents: write
 
     steps:
       - name: Checkout
