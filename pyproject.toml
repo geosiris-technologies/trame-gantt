@@ -54,7 +54,7 @@ dev = [
     "isort"
 ]
 test = [
-    "pytest-cov ~=3.0.0",
+    "pytest",
 ]
 
 [project.readme]
