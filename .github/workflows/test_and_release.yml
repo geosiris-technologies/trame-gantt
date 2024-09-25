@@ -71,6 +71,9 @@ jobs:
     ]
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
+    environment:
+      name: release
+      url: https://pypi.org/project/trame-gantt/
     permissions:
       # https://docs.github.com/en/rest/overview/permissions-required-for-github-apps?apiVersion=2022-11-28#metadata
       id-token: write
